@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <title>Cybay | Cyber Security Marketplace</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/cybay.png" alt="logo" id="logo"></a>
+        <a href="#news">STATUS</a>
+        <a href="#contact">PROCUREMENT</a>
+        <a href="#about">KARL</a>
+        <a href="#about">SETTINGS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main>
+        <div>
+
+            <h2>
+                This is what we have gathered about your site.
+            </h2>
+
+            <h4>
+                Click on a category to find how to improve.
+            </h4>
+
+            <ul id="dashboard">
+                <li>
+                    <a>
+                        <p class="security_field">DIAGNOSTICS</p>
+                        <p><span class="percentage">45</span>%</p>
+                     </a>
+                </li>
+
+                <li>
+                    <a>
+                        <p class="security_field">IT SHIELD</p>
+                        <p><span class="percentage">28</span>%</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <p class="security_field">DETECTION</p>
+                        <p><span class="percentage">90</span>%</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <p class="security_field">COUNTER</p>
+                        <p><span class="percentage">85</span>%</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <p class="security_field">RESCUE</p>
+                        <p><span class="percentage">70</span>%</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cyberhygiene.html">
+                        <p class="security_field">CYBER HYGIENE</p>
+                        <p><span class="percentage">76</span>%</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <section id="output-charts">
+
+            <div>
+                <ul id=chart_menu>
+                    <li>Hour</li>
+                    <li>Day</li>
+                    <li>Week</li>
+                    <li>Year</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>STAT 1</h2>
+                <canvas id="chart"></canvas>
+            </div>
+
+            <div>
+                <h2>Traffic Source</h2>
+                <canvas id="donut_chart"></canvas>
+            </div>
+        
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+
+</html>
