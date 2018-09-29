@@ -1,14 +1,16 @@
-$(".parameter-percentage").each(function (index, element) {
-    let percent = parseInt(element.innerHTML.replace("%", ""));
-    console.log(percent);
+$(".parameter").each(function (index, element) {
+    let percent = parseInt($(element).find(".parameter-percentage").first().text().replace("%", ""));
 
-    if (percent > 60) {
-        element.style.color = "#1b5e20";
+    if (percent > 83) {
+        element.style.background = "#1b5e20";
     }
-    else if (percent > 35) {
-        element.style.color = "#ff6d00";
+    else if (percent > 49) {
+        element.style.background = "#ff6d00";
+    }
+    else if (percent >= 38) {
+        element.style.background = "rgb(216, 184, 4)";
     }
     else {
-        element.style.color = "#d50000";
+        element.style.background = "#d50000";
     }
 });
