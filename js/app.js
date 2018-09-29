@@ -159,7 +159,7 @@ const dashboard_links = document.querySelector("#dashboard");
 if (dashboard_links != null) {
     dashboard_links.addEventListener("click", (event) => {
 
-    if (event.target.tagName === "LI") {
+    if (event.target.tagName === "LI" || event.target.tagName === "P" || event.target.tagName === "A") {
         print_area_chart(dataset_daily, xlabels_daily, "line");
         print_donut_chart(data_set_1);
     }
