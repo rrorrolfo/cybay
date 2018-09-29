@@ -57,3 +57,55 @@
     margin: 0;
 }
 
+/* MODAL */
+
+#questionaire_modal {
+ background-color: rgba(27, 27, 27, 0.74);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 99;
+ overflow: auto;
+ display: none;
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 60px auto;
+    padding: 0;
+    background-color: rgb(145, 141, 141);
+}
+
+fieldset {
+    border: none;
+}
+
+#questions h2 {
+    text-align: center;
+}
+
+.question_wrapper {
+    margin:15px;
+    display: flex;
+}
+
+.question_wrapper label {
+    margin-right: auto;
+}
+
+.question_wrapper button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+#title_modal {
+    background-color: #465D57;
+}
+
+
+

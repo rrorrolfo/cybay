@@ -14,3 +14,14 @@ $(".parameter").each(function (index, element) {
         element.style.background = "#d50000";
     }
 });
+
+// MODAL
+
+// DISPLAY MODAL
+
+const $awareness_field = $(".parameter");
+const $awareness_questionaire = $("#questionaire_modal");
+
+$awareness_field.click( () => {
+    $awareness_questionaire.fadeIn(600);
+})
