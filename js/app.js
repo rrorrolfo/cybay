@@ -19,9 +19,9 @@ function colorAssign () {
         if (parseInt(percentage[i].textContent) < 38) {
             security_fields[i].parentNode.parentNode.className += " red"
         } else if (parseInt(percentage[i].textContent) < 50) {
-            security_fields[i].parentNode.parentNode.className += " yellow"
+            security_fields[i].parentNode.parentNode.className += " orange"
         } else if(parseInt(percentage[i].textContent) < 84) {
-            security_fields[i].parentNode.parentNode.className += "orange"
+            security_fields[i].parentNode.parentNode.className += "yellow"
         } else if(parseInt(percentage[i].textContent) >= 85 ) {
             security_fields[i].parentNode.parentNode.className += "green"
         }
@@ -53,7 +53,7 @@ const xlabels_monthly = ["May", "June", "July", "August", "September", "October"
 
  chart_menu.addEventListener ("click", (event) => {
     if (event.target.tagName =="LI") {
-        
+
         if (event.target === timeFrameList[0]) {
             print_area_chart(dataset_hourly, xlabels_hourly);
           } else if (event.target === timeFrameList[1]) {
@@ -62,7 +62,7 @@ const xlabels_monthly = ["May", "June", "July", "August", "September", "October"
             print_area_chart(dataset_weekly, xlabels_weekly);
           } else if (event.target === timeFrameList[3]) {
             print_area_chart(dataset_monthly, xlabels_monthly);
-          } 
+          }
     }
  });
 
