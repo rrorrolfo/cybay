@@ -17,13 +17,13 @@ function colorAssign () {
     for (let i = 0; i < security_fields.length; i += 1) {
 
         if (parseInt(percentage[i].textContent) < 38) {
-            security_fields[i].parentNode.parentNode.className += " red"
+            security_fields[i].parentNode.className += " red"
         } else if (parseInt(percentage[i].textContent) < 50) {
-            security_fields[i].parentNode.parentNode.className += " yellow"
+            security_fields[i].parentNode.className += " yellow"
         } else if(parseInt(percentage[i].textContent) < 84) {
-            security_fields[i].parentNode.parentNode.className += "orange"
+            security_fields[i].parentNode.className += "orange"
         } else if(parseInt(percentage[i].textContent) >= 85 ) {
-            security_fields[i].parentNode.parentNode.className += "green"
+            security_fields[i].parentNode.className += "green"
         }
 
     }
@@ -34,7 +34,7 @@ colorAssign();
 
 //  datasets
 
-const dataset_hourly = [125,100,98,67,75,86,90,101,76,65,64,32,37,09, 45, 67, 78, 69, 98, 101, 98,87,78, 89];
+const dataset_hourly = [125,100,98,67,75,86,90,101,76,65,64,32,37,19, 45, 67, 78, 69, 98, 101, 98,87,78, 89];
 const xlabels_hourly = ["00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00",  "22:00",  "23:00"];
 
 const dataset_daily = [1345,2895,1935,2101,1875,2500, 2978];
@@ -95,10 +95,6 @@ function print_area_chart (data, xlabels) {
               elements: {
                 line: {
                     tension: 0
-                },
-                scales: {
-                    
-                    
                 }
 
 

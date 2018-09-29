@@ -36,6 +36,13 @@ a {
     --light-grey: #555;
 }
 
+/*   LOGO  */
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
 /*   NAV  */
 
 .topnav {
@@ -83,18 +90,20 @@ a {
 
 #dashboard li {
     flex-basis: 40%;
-    
     padding: 20px;
+    padding-left: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     font-size: 1.3rem;
-    border: 1px solid #000;
+    box-shadow: 10px 5px 5px var(--grey-color);
+    background-color: rgb(145, 141, 141);
 }
 
 #dashboard a {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #dashboard li:hover,
@@ -102,30 +111,45 @@ a {
     cursor: pointer;
 }
 
-#dashboard li p {
+#dashboard li .security_field {
     margin: 0;
+    margin-right: auto;
+    margin-left: 7px;
 }
 
 /*   Colors classes for dashboard  */
 
-.red {
-    background-color: var(--red-color);
-    color: var(--white-color);
+.yellow::before,
+.green::before,
+.red::before,
+.orange::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
 }
 
-.orange {
-    background-color: var(--orange-color);
-    color: var(--white-color);
+.red::before {
+    background-image: url(../images/alarm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.green {
-    background-color: var(--green-color);
-    color: var(--white-color);
+.orange::before {
+    background-image: url(../images/warning.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.yellow {
-    background-color: var(--yellow-color);
-    color: var(--white-color);
+.green::before {
+    background-image: url(../images/ok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yellow::before {
+    background-image: url(../images/warning.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -138,10 +162,6 @@ a {
 
 #chart_menu li {
     margin: 10px;
-}
-
-#chart_menu li:last-child {
-
 }
 
 
@@ -159,6 +179,34 @@ canvas {
 
 /*   MEDIA QUERIES   */
 
+@media (min-width: 1250px) { 
+   
+
+    #dashboard li {
+        flex-basis: 28.5%;
+        margin-top: 25px;
+    }
+
+    canvas {
+        max-width: 100%;
+    }
+
+    #output-charts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #output-charts div:first-child {
+        flex-basis: 100%;
+    }
+
+    #output-charts div {
+        flex-basis: 45%;
+    }
+
+    
+}
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
