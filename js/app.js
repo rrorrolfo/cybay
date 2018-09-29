@@ -17,13 +17,13 @@ function colorAssign () {
     for (let i = 0; i < security_fields.length; i += 1) {
 
         if (parseInt(percentage[i].textContent) < 38) {
-            security_fields[i].parentNode.className += " red"
+            security_fields[i].parentNode.parentNode.className += " red"
         } else if (parseInt(percentage[i].textContent) < 50) {
-            security_fields[i].parentNode.className += " yellow"
+            security_fields[i].parentNode.parentNode.className += " yellow"
         } else if(parseInt(percentage[i].textContent) < 84) {
-            security_fields[i].parentNode.className += "orange"
+            security_fields[i].parentNode.parentNode.className += "orange"
         } else if(parseInt(percentage[i].textContent) >= 85 ) {
-            security_fields[i].parentNode.className += "green"
+            security_fields[i].parentNode.parentNode.className += "green"
         }
 
     }

@@ -18,6 +18,11 @@ main {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 /*   COLORs  202020 333*/
 
 :root {
@@ -78,8 +83,7 @@ main {
 
 #dashboard li {
     flex-basis: 40%;
-    display: flex;
-    justify-content: space-between;
+    
     padding: 20px;
     text-align: center;
     margin-top: 10px;
@@ -88,7 +92,13 @@ main {
     border: 1px solid #000;
 }
 
-#dashboard li:hover {
+#dashboard a {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard li:hover,
+#chart_menu li:hover {
     cursor: pointer;
 }
 
