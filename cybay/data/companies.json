@@ -1,0 +1,69 @@
+{
+	companies: [
+		{
+			"company":"...", 
+			"logo-url":"...",
+			"country":"United Kingdom", 
+			"no-of-employees":"22", 
+			"references: [
+				{"banking", "public health service", "telecommunication", "local covernments"}
+			],
+			"certificates: [
+				{"ISO-1300", "ISO-14001"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"1"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"1"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"1"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"0"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]},}
+			],
+		},
+		{
+			"company":"...", 
+			"logo-url":"...",
+			"country":"United Kingdom", 
+			"no-of-employees":"32", 
+			"references: [
+				{"banking", "telecommunication", "local covernments"}
+			],
+			"certificates: [
+				{"ISO-1300"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		}
+	]
+}   
