@@ -7,6 +7,9 @@ ul {
 
 body {
     margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ffffff;
+    background: #424242;
 }
 
 /*   NAV  */

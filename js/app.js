@@ -49,12 +49,14 @@ function print_area_chart (data, xlabels, type) {
 
 const dashboard_links = document.querySelector("#dashboard");
 
-dashboard_links.addEventListener("click", (event) => {
+if (dashboard_links != null) {
+    dashboard_links.addEventListener("click", (event) => {
 
-    console.log(event.target)
+        console.log(event.target)
 
-    if (event.target.tagName === "P") {
-        print_area_chart(dataset_daily, xlabels_daily, "line");
-    }
+        if (event.target.tagName === "P") {
+            print_area_chart(dataset_daily, xlabels_daily, "line");
+        }
 
-})
+    })
+}
