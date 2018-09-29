@@ -1,15 +1,16 @@
 {
 	companies: [
 		{
-			"company":"...", 
-			"logo-url":"...",
+			"company":"Nettitude", 
+			"logo-url":"nettitude.png",
+			"www":"https://www.nettitude.com",
 			"country":"United Kingdom", 
-			"no-of-employees":"22", 
+			"no-of-employees":"8", 
 			"references: [
-				{"banking", "public health service", "telecommunication", "local covernments"}
+				{"Bedford County Hospital", "BHS retail", "Lloyds shipping"}
 			],
 			"certificates: [
-				{"ISO-1300", "ISO-14001"}
+				{"Cyber Essentials", "CBEST", "STAR testing", "ISO 27001"}
 			],
 			"services: [
 				{"service-name":"diagnostics", "value":"1", 
@@ -33,15 +34,220 @@
 			],
 		},
 		{
-			"company":"...", 
-			"logo-url":"...",
-			"country":"United Kingdom", 
-			"no-of-employees":"32", 
+			"company":"ATAATA", 
+			"logo-url":"ataata.jpg",
+			"www":"https://www.ataata.com/",
+			"country":"United States", 
+			"no-of-employees":"17", 
 			"references: [
-				{"banking", "telecommunication", "local covernments"}
+				{"Department of Defense", "Wendy’s", "Maryland National Hospital Board", "Medical Society of Delaware"}
 			],
 			"certificates: [
-				{"ISO-1300"}
+				{"ISO 27001", "NIST"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"KASPERSKY - RUSSIA", 
+			"logo-url":"kaspersky.png",
+			"www":"https://www.kaspersky.com/",
+			"country":"Russia", 
+			"no-of-employees":"3900", 
+			"references: [
+				{"City of London Police", "Home Office", "Bedford Trust Hospital", "Brighton & West Sussex University Hospital"}
+			],
+			"certificates: [
+				{"ISO 27001", "NIST", "Cyber Essentials"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"CENTO CONSULTING", 
+			"logo-url":"cento.png",
+			"www":"http://centoconsulting.co.uk/",
+			"country":"United Kingdom", 
+			"no-of-employees":"1", 
+			"references: [
+				{"Cirencester County Council", "Park Surgery of Cirencester"}
+			],
+			"certificates: [
+				{"Cyber Essentials"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"APMG INTERNATIONAL", 
+			"logo-url":"apmg.png",
+			"www":"https://apmg-international.com/",
+			"country":"United Kingdom", 
+			"no-of-employees":"108", 
+			"references: [
+				{"GCHQ", "Swindon Hospital Trust"}
+			],
+			"certificates: [
+				{"UKAS", "ISO 1704:2012", "Cyber Essentials", "NHS IGT"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"NINJIO", 
+			"logo-url":"ninjio.png",
+			"www":"https://ninjio.com/",
+			"country":"United States", 
+			"no-of-employees":"45", 
+			"references: [
+				{"Ronald Reagan UCLA Medical Centre", "University of California"}
+			],
+			"certificates: [
+				{"HIPAA", "NIST", "PCI DSS"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"JAW Consultancy", 
+			"logo-url":"jaw.png",
+			"www":"https://www.jawconsulting.co.uk/",
+			"country":"United Kingdom", 
+			"no-of-employees":"19", 
+			"references: [
+				{"Bank of England", "Leeds City Council", "Barclays"}
+			],
+			"certificates: [
+				{"ISO 27001", "PCI DSS", "NHS IGT"}
+			],
+			"services: [
+				{"service-name":"diagnostics", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Asset Mangement", "value":"1"},
+						{"sub-discipline-name":"Risk & Vulnerabilty Assessment", "value":"0"},
+						{"sub-discipline-name":"Risk Management Strategy", "value":"0"},
+						{"sub-discipline-name":"Threath Intelligence", "value":"0"}
+					]},
+				{"service-name":"counter", "value":"1"},
+				{"service-name":"it shield", "value":"0"},
+				{"service-name":"rescue", "value":"1"},
+				{"service-name":"detection", "value":"0"},
+				{"service-name":"cyber hygiene", "value":"1", 
+					"sub-disciplines": [
+						{"sub-discipline-name":"Governance", "value":"1"},
+						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
+						{"sub-discipline-name":"Certifications", "value":"1"},
+						{"sub-discipline-name":"Incidents Response", "value":"1"}
+					]
+				}
+			]
+		},
+		{
+			"company":"XYONE CYBER SECURITY SOLUTIONS", 
+			"logo-url":"xyone.png",
+			"www":"https://www.xyonecybersecurity.co.uk/",
+			"country":"United Kingdom", 
+			"no-of-employees":"8", 
+			"references: [
+				{"University of Leicester", "York Teaching Hospital NHS Trust", "East Lancashire Hospital Trust"}
+			],
+			"certificates: [
+				{"ISO 27001", "NHS IGT", "ISO 27301", "GCHQ Certified Training", "CAS"}
 			],
 			"services: [
 				{"service-name":"diagnostics", "value":"1", 
