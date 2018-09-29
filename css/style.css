@@ -9,7 +9,6 @@ body {
     margin: 0;
     font-family: Roboto, Arial, sans-serif;
     color: #ffffff;
-    background: #424242;
     background-color: #424242;
 }
 
@@ -30,7 +29,7 @@ a {
     --red-color: #d50000;
     --white-color: #fff;
     --orange-color: #ff6d00;
-    --yellow-color: rgb(216, 184, 4);
+    --yellow-color: #ffd600;
     --dark-grey: #222;
     --grey-color: #333;
     --light-grey: #555;
@@ -46,7 +45,7 @@ a {
 /*   NAV  */
 
 .topnav {
-    background-color: #1b1b1b;
+    background-color: #232323;
     overflow: hidden;
 }
 

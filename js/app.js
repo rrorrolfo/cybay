@@ -53,7 +53,7 @@ const xlabels_monthly = ["May", "June", "July", "August", "September", "October"
 
  chart_menu.addEventListener ("click", (event) => {
     if (event.target.tagName =="LI") {
-        
+
         if (event.target === timeFrameList[0]) {
             print_area_chart(dataset_hourly, xlabels_hourly);
           } else if (event.target === timeFrameList[1]) {
@@ -62,7 +62,7 @@ const xlabels_monthly = ["May", "June", "July", "August", "September", "October"
             print_area_chart(dataset_weekly, xlabels_weekly);
           } else if (event.target === timeFrameList[3]) {
             print_area_chart(dataset_monthly, xlabels_monthly);
-          } 
+          }
     }
  });
 

@@ -8,10 +8,10 @@
     margin: 4% 20% 0 20%;
     padding: 0px 50px 50px 50px;
     border: 2px solid black;
-    border-radius: 1px;
+    border-radius: 2px;
     text-align: center;
 
-    background: #1b1b1b;
+    background: #232323;
 }
 
 #block-content {
@@ -41,6 +41,8 @@
     margin-top: 20px;
     padding: 20px 20px 20px 20px;
     border-radius: 2px;
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
 .parameter-name {
