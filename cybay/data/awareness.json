@@ -1,0 +1,18 @@
+{
+	check-list: [
+		{"name":"1.	Does all the staff understand their responsibilities under the National Data Guardian’s Data Security Standards, including their obligation to handle information responsibly and their personal accountability for deliberate or avoidable breaches?", "value":"1"},
+		{"name":"2.	Can you identify cyber-attacks against services?", "value":"0"},
+		{"name":"3.	Can you resist cyber-attacks against services?", "value":"0"},
+		{"name":"4.	Can you identify and improve processes which have caused breaches or near misses?", "value":"0"},
+		{"name":"5.	Do you have processes which force staff to use workarounds that compromise data security?", "value":"0"},
+		{"name":"6.	Do you have any unsupported operating systems in use within the IT estate?", "value":"0"},
+		{"name":"7.	Do you have any unsupported software in use within the IT estate?", "value":"0"},
+		{"name":"8. Do you have any unsupported internet browsers in use within the IT estate?", "value":"0"},
+		{"name":"9. Do you have a strategy in place for protecting IT systems from cyber threats which is based on a proven cyber security framework?", "value":"1"},
+		{"name":"10. Does the staff know that social media should only be used for personal activities; never for the transmission, storage or discussion of any NHS or other UK Government information?", "value":"0"},
+		{"name":"11. Does the staff know that Social media should only be used in a manner that does not bring the NHS into disrepute or harm or tarnish its image or reputation through offensive, inappropriate or derogatory remarks?", "value":"1"},
+		{"name":"12. Do the users using social media (for personal and corporate use) know that they are forbidden from breaching data protections laws or patient confidentiality?", "value":"1"},
+		{"name":"13. Do the users using social media (for personal and corporate use) know that they are forbidden from publishing images or text that might be considered as harassment or are discriminatory, offensive or abusive. This includes the promotion of discrimination based on factors such as race, sex, religion, nationality, disability, sexual orientation or age?", "value":"1"},
+		{"name":"13. Do the users using social media (for personal and corporate use) know that they are forbidden from publishing images or text that might be considered threatening, abusive, hateful or inflammatory, which constitutes an invasion of privacy, or causes annoyance, inconvenience or needless anxiety or which promotes violence?", "value":"1"}
+	]
+}   

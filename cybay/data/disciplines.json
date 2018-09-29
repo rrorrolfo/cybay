@@ -1,0 +1,32 @@
+{
+	"private": {
+			disciplines: [
+				{"name":"diagnostics", "value":"80%"},
+				{"name":"counter", "value":"70%"},
+				{"name":"it shield", "value":"60%"},
+				{"name":"rescue", "value":"50%"},
+				{"name":"detection", "value":"40%"},
+				{"name":"cyber hygiene", "value":"30%"}
+			]
+	},
+	"public": {
+			disciplines: [
+				{"name":"diagnostics", "value":"30%"},
+				{"name":"counter", "value":"40%"},
+				{"name":"it shield", "value":"50%"},
+				{"name":"rescue", "value":"60%"},
+				{"name":"detection", "value":"70%"},
+				{"name":"cyber hygiene", "value":"80%"}
+			]
+	},
+	"other": {
+			disciplines: [
+				{"name":"diagnostics", "value":"50%"},
+				{"name":"counter", "value":"50%"},
+				{"name":"it shield", "value":"100%"},
+				{"name":"rescue", "value":"0%"},
+				{"name":"detection", "value":"50%"},
+				{"name":"cyber hygiene", "value":"50%"}
+			]
+	}
+}   
