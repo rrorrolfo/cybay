@@ -7,6 +7,7 @@
 
     
     <title>Cybay</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -24,49 +25,50 @@
         <div>
             <ul id="dashboard">
                 <li>
-                        <p class="show_chart">Here goes some text</p>
-                        <p class="show_chart">40%</p>
+                    <p class="security_field">DIAGNOSTICS</p>
+                    <p><span class="percentage">45</span>%</p>
                 </li>
 
                 <li>
-                    <a>
-                        <p>Here goes some text</p>
-                        <p>40%</p>
-                    </a>
+                    <p class="security_field">IT SHIELD</p>
+                    <p><span class="percentage">28</span>%</p>
                 </li>
 
                 <li>
-                    <a>
-                        <p>Here goes some text</p>
-                        <p>40%</p>
-                    </a>
+                    <p class="security_field">DETECTION</p>
+                    <p><span class="percentage">90</span>%</p>
                 </li>
 
                 <li>
-                    <a>
-                        <p>Here goes some text</p>
-                        <p>40%</p>
-                    </a>
+                    <p class="security_field">COUNTER</p>
+                    <p><span class="percentage">85</span>%</p>
                 </li>
 
                 <li>
-                    <a>
-                        <p>Here goes some text</p>
-                        <p>40%</p>
-                    </a>
+                    <p class="security_field">RESCUE</p>
+                    <p><span class="percentage">70</span>%</p>
                 </li>
 
                 <li>
-                    <a>
-                        <p>Here goes some text</p>
-                        <p>40%</p>
-                    </a>
+                    <p class="security_field">CYBER </p>
+                    <p><span class="percentage">76</span>%</p>
                 </li>
+
             </ul>
         </div>
 
         <section id="output-charts">
+
+            <div>
+                <ul id=chart_menu>
+                    <li>Day</li>
+                    <li>Week</li>
+                    <li>Month</li>
+                    <li>Year</li>
+                </ul>
+            </div>
             <canvas id="chart"></canvas>
+        
         </section>
 
     </main>

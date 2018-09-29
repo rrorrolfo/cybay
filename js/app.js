@@ -7,6 +7,32 @@ function myFunction() {
     }
 }
 
+//  FUNCTION FOR EVALUATING AND ASSIGNING COLORS
+
+const security_fields = document.querySelectorAll(".security_field"); 
+const percentage = document.querySelectorAll(".percentage");
+
+function colorAssign () {
+
+    for (let i = 0; i < security_fields.length; i += 1) {
+        console.log(parseInt(percentage[i].textContent));
+
+        if (parseInt(percentage[i].textContent) < 38) {
+            security_fields[i].parentNode.className += " red"
+        } else if (parseInt(percentage[i].textContent) < 50) {
+            security_fields[i].parentNode.className += " yellow"
+        } else if(parseInt(percentage[i].textContent) < 84) {
+            security_fields[i].parentNode.className += "orange"
+        } else if(parseInt(percentage[i].textContent) >= 85 ) {
+            security_fields[i].parentNode.className += "green"
+        }
+        
+    }
+
+}
+
+colorAssign();
+
 //  Print chart function
 
 
@@ -24,7 +50,7 @@ function print_area_chart (data, xlabels, type) {
           datasets: [{
               data: data,
               backgroundColor: "rgba(16, 123, 147, 0.144)",
-              borderColor: "#107B93",
+              borderColor: "rgba(16, 123, 147, 0.144)",
               borderWidth: 1,
               pointBorderWidth: 5,
               showLine: true
@@ -36,7 +62,14 @@ function print_area_chart (data, xlabels, type) {
               elements: {
                 line: {
                     tension: 0
+                },
+                scale: {
+                    gridLines: {
+                        color: "rgba(255,255,255, 1)"   
+                    }
                 }
+                
+                
       }
     }
     });
@@ -50,8 +83,6 @@ function print_area_chart (data, xlabels, type) {
 const dashboard_links = document.querySelector("#dashboard");
 
 dashboard_links.addEventListener("click", (event) => {
-
-    console.log(event.target)
 
     if (event.target.tagName === "P") {
         print_area_chart(dataset_daily, xlabels_daily, "line");

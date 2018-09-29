@@ -7,6 +7,25 @@ ul {
 
 body {
     margin: 0;
+    background-color: #424242;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/*   COLORs  202020 333*/
+
+:root {
+    --green-color: #1b5e20;
+    --red-color: #d50000;
+    --white-color: #fff;
+    --orange-color: #ff6d00;
+    --yellow-color: rgb(216, 184, 4);
+    --dark-grey: #222;
+    --grey-color: #333;
+    --light-grey: #555;
 }
 
 /*   NAV  */
@@ -30,7 +49,7 @@ body {
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #f2f2f2;
 }
 
 
@@ -56,16 +75,57 @@ body {
 
 #dashboard li {
     flex-basis: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
     text-align: center;
     margin-top: 10px;
     border: 1px solid #000;
+}
+
+/*   Colors classes for dashboard  */
+
+.red {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.orange {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.green {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.yellow {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+
+/*   CHART TYPE MENU */
+
+#chart_menu {
+    display: flex;
+    margin: 10px 20px;
+}
+
+#chart_menu li {
+    margin: 10px;
+}
+
+#chart_menu li:last-child {
+   
 }
 
 
 /*  CHARTs  */
 
 #chart {
-    width: 100%;
+    width: 600px;
     height: 400px;
 }
 
@@ -73,7 +133,7 @@ body {
 /*   MEDIA QUERIES   */
 
 
-media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
