@@ -57,16 +57,19 @@ a:hover {
   margin-top:10px;
   font-size:1em;
   border-radius:4px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
-.password{
+/*.password{
   border-radius:4px;
   background:#ecf0f1;
   border: #ccc 1px solid;
   padding: 8px;
   width:250px;
   font-size:1em;
-}
+}*/
 
 .btn{
   background:#2ecc71;
@@ -92,7 +95,7 @@ a:hover {
 #btn2{
   float:left;
   background:#3498db;
-  width:125px;  padding-top:5px;
+  /*width:125px;  padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;
@@ -102,7 +105,7 @@ a:hover {
   margin-bottom:20px;
   margin-left:10px;
   font-weight:800;
-  font-size:0.8em;
+  font-size:0.8em;*/
 }
 
 #btn2:hover{ 
@@ -129,3 +132,22 @@ background:#3594D2;
     height: 40px;
 }
 
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.box a {
+    margin: 0;
+}
+
+.loginbutton {
+    margin-right: 20px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+}
+.loginbutton span {
+    font-size: 20px;
+    line-height: 29px;
+}

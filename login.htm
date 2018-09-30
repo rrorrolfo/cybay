@@ -5,15 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cybay | Cyber Security Marketplace</title>
+
+	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="css/style-landing.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+	  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script>
 		function field_focus(field, email)
 		  {
-			if(field.value == email)
-			{
-			  field.value = '';
-			}
+			if(field.value === email) {
+                field.value = '';
+            }
 		  }
 
 		  function field_blur(field, email)
@@ -46,9 +48,9 @@
 				<div class="box">
 				<h1>Partners login</h1>
 
-				<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+				<input type="email" name="email" value="E-mail" onFocus="field_focus(this, 'E-mail');" onblur="field_blur(this, 'E-mail');" class="email" />
 				  
-				<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+				<input type="password" name="password" value="password12345" onFocus="field_focus(this, 'password12345');" onblur="field_blur(this, 'password12345');" class="email" />
 				  
 				<a href="index.html"><div class="btn">Sign In</div></a> <!-- End Btn -->
 
