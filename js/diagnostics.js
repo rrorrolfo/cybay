@@ -43,13 +43,13 @@ $(function(){
     $.switcher();
 });
 
-$("button").hide();
+$("button").css('visibility','hidden');
 
 $("input").change(function () {
     if ($(this)[0].checked) {
-        $(this).parent().find("button").show();
+        $(this).parent().find("button").css('visibility','visible');
     } else {
-        $(this).parent().find("button").hide();
+        $(this).parent().find("button").css('visibility','hidden');
     }
 })
 
