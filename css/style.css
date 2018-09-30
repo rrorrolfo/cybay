@@ -24,20 +24,9 @@ a {
 
 /**/
 
-body{
-  font-family: 'Open Sans', sans-serif;
-  width:100%; 
-  margin: 0px 0px 0px 0px;   
-}
-
-p{
+p {
   text-decoration: none;
   color:#ffffff;
-}
-
-h1{
-  font-size:1.5em;
-  color:#525252;
 }
 
 .box{
@@ -214,30 +203,24 @@ background:#3594D2;
     content: " ";
     width: 60px;
     height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .red::before {
     background-image: url(../images/alarm.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .orange::before {
     background-image: url(../images/warning.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .green::before {
-    background-image: url(../images/ok.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../images/ok.png);;
 }
 
 .yellow::before {
     background-image: url(../images/warning.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -262,6 +245,157 @@ background:#3594D2;
 
 canvas {
     margin-bottom: 30px;
+}
+
+/*   KARL SITE   */
+
+#karl_layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 150px 1fr 1fr;
+  grid-template-areas:
+  "title title"
+  "karl logos"
+  "settings logos"
+  
+}
+
+#title_karl {
+    grid-area: title;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+#karl {
+    grid-area: karl;
+    
+}
+
+#logos {
+    grid-area: logos;
+    border: 1px solid blue;
+}
+
+#settings {
+    grid-area: settings;
+    border: 1px solid black;
+}
+
+/**********  KARL FILTERS ****************/
+
+#country,
+#slider-container {
+    margin: 20px;
+    width: 80%;
+}
+
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%;
+    height: 25px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    border-radius: 5px;
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+
+.slider:hover {
+    opacity: 1; 
+}
+
+ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: var(--red-color); 
+    cursor: pointer; 
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px;
+    background: var(--red-color); 
+    cursor: pointer;
+}
+
+.values_slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**********  TOOGGLE SWITCH ****************/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+}
+
+.switch input {
+    display:none;
+}
+
+.slider_switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider_switch:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider_switch {
+    background-color: var(--light-blue);
+  }
+
+  input:focus + .slider_switch {
+    box-shadow: 0 0 1px var(--light-blue);
+  }
+  
+  input:checked + .slider_switch:before {
+    -webkit-transform: translateX(45px);
+    -ms-transform: translateX(45px);
+    transform: translateX(45px);
+  }
+
+  .slider_switch.round {
+    border-radius: 34px;
+  }
+  
+  .slider_switch.round:before {
+    border-radius: 50%;
+  }
+
+.status_switch {
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: 5px;
+    font-size: .9rem;
+    color: var(--white-color);
+    opacity: 1;
 }
 
 
@@ -318,3 +452,13 @@ canvas {
       text-align: left;
     }
   }
+
+h1 {
+    padding-top: 20px;
+    font-size: 42px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+}

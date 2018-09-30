@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <title>Cybay | Cyber Security Marketplace</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/cybay.png" alt="logo" id="logo"></a>
+        <a href="#news">STATUS</a>
+        <a href="#contact">PROCUREMENT</a>
+        <a href="#about">KARL</a>
+        <a href="#about">SETTINGS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main id="karl_layout">
+        
+        <section id="#title_karl">
+                <h2>Karl</h2>
+                <h4>Your search tool for cybersecurity</h4>
+        </section>
+
+        <section id="karl">
+            
+            <label for="country">Choose a Country</label>
+            <select id="country">
+                    <option value="">--</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="at">Austria</option>
+            </select>
+
+            <label>Delivery Date</label>
+            <div id="slider-container">
+                <input type="range" min="1" max="5" value="2" class="slider" id="myRange">
+                <div class="values_slider">
+                    <label>
+                        1 Day
+                    </label>
+                    <label>
+                        5 Days
+                    </label>
+                </div>
+            </div>
+
+            <label>Price</label>
+            <div id="slider-container">
+                <input type="range" min="500" max="5000" value="1000" class="slider" id="myRange">
+                <div class="values_slider">
+                    <label>
+                        Lowest
+                    </label>
+                    <label>
+                        Highest
+                    </label>
+                </div>
+            </div>
+
+            <label>Rating</label>
+            <div id="slider-container">
+                <input type="range" min="1" max="5" value="4" class="slider" id="myRange">
+                <div class="values_slider">
+                    <label>
+                        1 Star
+                    </label>
+                    <label>
+                        5 star
+                    </label>
+                </div>
+            </div>
+
+            <label>Size</label>
+            <div id="slider-container">
+                <input type="range" min="1" max="5" value="2" class="slider" id="myRange">
+                <div class="values_slider">
+                    <label>
+                        S
+                    </label>
+                    <label>
+                        M
+                    </label>
+                    <label>
+                        L
+                    </label>
+                </div>
+            </div>
+            
+
+        </section>
+        <section id="logos"></section>
+        <section id="settings">
+
+                <div class="switch_container">
+                    <p>Joint Procedure</p>
+                    <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider_switch round">
+                                <span class="status_switch">IN</span>
+                                <span class="status_switch">OUT</span>
+                            </span>
+                    </label>
+                </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/karl.js"></script>
+    </body>
+
+</html>
