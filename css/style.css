@@ -24,20 +24,9 @@ a {
 
 /**/
 
-body{
-  font-family: 'Open Sans', sans-serif;
-  width:100%; 
-  margin: 0px 0px 0px 0px;   
-}
-
-p{
+p {
   text-decoration: none;
   color:#ffffff;
-}
-
-h1{
-  font-size:1.5em;
-  color:#525252;
 }
 
 .box{
@@ -463,3 +452,13 @@ canvas {
       text-align: left;
     }
   }
+
+h1 {
+    padding-top: 20px;
+    font-size: 42px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+}
