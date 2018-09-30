@@ -4,120 +4,32 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    
     <title>Cybay | Cyber Security Marketplace</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
-	  <script>
-		function field_focus(field, email)
-		  {
-			if(field.value == email)
-			{
-			  field.value = '';
-			}
-		  }
-
-		  function field_blur(field, email)
-		  {
-			if(field.value == '')
-			{
-			  field.value = email;
-			}
-		  }
-
-		//Fade in dashboard box
-		$(document).ready(function(){
-			$('.box').hide().fadeIn(1000);
-			});
-
-		//Stop click event
-		$('a').click(function(event){
-			event.preventDefault(); 
-			});
-	  </script>
+    <link rel="stylesheet" href="css/style-landing.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body style="background-color: #ffffff; color: #000000;">
+  <body>
 	<table border="0" width="100%">
 		<tr>
-			<td width="70%" align="center"><a href="index.html"><img src="images/cy-bay-big2.png" width="400"></a><br/></td>
-			<td style= "text-align:center; align:left;">
-				<form method="post" action="index.html">
-				<div class="box">
-				<h1>Partners login</h1>
-
-				<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
-				  
-				<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
-				  
-				<a href="index.html"><div class="btn">Sign In</div></a> <!-- End Btn -->
-
-				<a href="#"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
-				  
-				</div> <!-- End Box -->
-				  
-				</form>
-
-				<p style="font-size:12px; color:#000000">Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>	
-			</td>
+			<td width="10%">&nbsp;</td>
+			<td align="center"><a href="index.html"><img src="images/cy-bay-big2.png" width="400"></a><br/></td>
+			<td width="5%" style= "text-align:center;" valign="top">
+                <a href="login.htm"><div class="btn loginbutton"><span>LOGIN</span></div></a>
+			</td>	
 		</tr>
 	</table>
     <main>
         <div>
-            <h2>
+            <h1 align="center">
                 Welcome to CY-BAY - A Marketplace for Cyber Security Services.
-            </h2>
+            </h1>
 
-            <h4>
-                Cy-bay is a marketplace where buyers meet with sellers (service providers). Cy-bay offers easy access to knowledge base were it is possible to check your organisations compliancy against cyber security best practices and regulations.
-            </h4>
+            <h3 align="center">
+                Cy-Bay is a marketplace where buyers meet with sellers. Cy-Bay offers easy access to knowledge base were it is possible to check your organisations compliancy against cyber security best practices and regulations.
+            </h3>
 
-            <ul id="dashboard">
-                <li>
-                    <a>
-                        <p class="security_field">DIAGNOSTICS</p>
-                        <p><span class="percentage">25</span>%</p>
-                     </a>
-                </li>
-
-                <li>
-                    <a>
-                        <p class="security_field">IT SHIELD</p>
-                        <p><span class="percentage">40</span>%</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <p class="security_field">DETECTION</p>
-                        <p><span class="percentage">95</span>%</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <p class="security_field">COUNTER</p>
-                        <p><span class="percentage">40</span>%</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <p class="security_field">RESCUE</p>
-                        <p><span class="percentage">90</span>%</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <p class="security_field">CYBER HYGIENE</p>
-                        <p><span class="percentage">76</span>%</p>
-                    </a>
-                </li>
-
-            </ul>
+            <p align="center"><img src="images/demo.png"></a><br/></p>
         </div>
 
 
