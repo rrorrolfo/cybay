@@ -8,42 +8,50 @@ const companies = [
     {
         name: "ninjio",
         price: 1000,
-        country: "US"
+        country: "US",
+        size: "M"
     },
     {
         name: "xyone",
         price: 2000,
-        country: "US"
+        country: "US",
+        size: "S"
     },
     {
         name: "kaspersky",
         price: 4500,
-        country: "RU"
+        country: "RU",
+        size: "L"
     },
     {
         name: "jaw",
         price: 2000,
-        country: "AT"
+        country: "AT",
+        size: "S"
     },
     {
         name: "apmg",
         price: 3000,
-        country: "US"
+        country: "US",
+        size: "M"
     },
     {
         name: "nettitude",
         price: 3200,
-        country: "UK"
+        country: "UK",
+        size: "S"
     },
     {
         name: "ataata",
         price: 1000,
-        country: "US"
+        country: "US",
+        size: "S"
     },
     {
         name: "cento",
         price: 1000,
-        country: "UK"
+        country: "UK",
+        size: "S"
     },
 ];
 

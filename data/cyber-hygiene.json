@@ -1,5 +1,5 @@
 {
-	sub-disciplines: [
+	"sub-disciplines": [
 		{"name":"Governance", "value":"80%", "link":"awareness.html"},
 		{"name":"Awareness & Education (Personnel)", "value":"70%", "link":"awareness.html"},
 		{"name":"Certifications", "value":"60%", "link":"awareness.html"},

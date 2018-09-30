@@ -1,5 +1,5 @@
 {
-	sub-disciplines: [
+	"sub-disciplines": [
 		{"name":"Asset Mangement", "value":"80%", "link":"asset.html"},
 		{"name":"Risk & Vulnerabilty Assessment", "value":"70%", "link":"risk-vulnerability.html"},
 		{"name":"Risk Management Strategy", "value":"60%", "link":"risk-management.html"},

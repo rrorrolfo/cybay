@@ -1,6 +1,6 @@
 {
 	"private": {
-			disciplines: [
+			"disciplines": [
 				{"name":"diagnostics", "value":"80%"},
 				{"name":"counter", "value":"70%"},
 				{"name":"it shield", "value":"60%"},
@@ -10,7 +10,7 @@
 			]
 	},
 	"public": {
-			disciplines: [
+			"disciplines": [
 				{"name":"diagnostics", "value":"30%"},
 				{"name":"counter", "value":"40%"},
 				{"name":"it shield", "value":"50%"},
@@ -20,7 +20,7 @@
 			]
 	},
 	"other": {
-			disciplines: [
+			"disciplines": [
 				{"name":"diagnostics", "value":"50%"},
 				{"name":"counter", "value":"50%"},
 				{"name":"it shield", "value":"100%"},
