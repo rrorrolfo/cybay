@@ -212,8 +212,8 @@ background:#3594D2;
 .red::before,
 .orange::before {
     content: " ";
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
 }
 
 .red::before {
