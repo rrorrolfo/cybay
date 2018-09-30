@@ -368,7 +368,7 @@ canvas {
   }
 
   input:checked + .slider_switch {
-    background-color: rgb(175, 79, 76);
+    background-color: #48902C;
   }
 
   input:focus + .slider_switch {
