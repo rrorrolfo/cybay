@@ -9,7 +9,7 @@
     padding: 0px 50px 50px 50px;
     border: 2px solid black;
     border-radius: 2px;
-    //text-align: center;
+    text-align: center;
 
     background: #232323;
 }
@@ -36,8 +36,8 @@
 }
 
 .parameter {
-    clear: both;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
     padding: 20px 20px 20px 20px;
     border-radius: 2px;
@@ -46,13 +46,12 @@
 }
 
 .parameter-name {
-    float: left;
     font-size: 26px;
     padding-top: 5px;
     margin: 0;
 }
 .parameter-percentage {
-    float: right;
+
     font-size: 32px;
     margin: 0;
 }
