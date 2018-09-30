@@ -116,7 +116,7 @@ function print_donut_chart (data) {
     let donut_chart =  new Chart(document.querySelector("#donut_chart"), {
         type: 'doughnut',
         data: {
-        labels: ["Phones", "Tablets", "Desktop"],
+        labels: ["Diagnostics", "IT Shield", "Detection"],
         datasets: [
             {
             backgroundColor: ["#3cba9f", "#8e5ea2", "#107B93"],
