@@ -1,18 +1,18 @@
 {
-	companies: [
+	"companies": [
 		{
 			"company":"Nettitude", 
 			"logo-url":"nettitude.png",
 			"www":"https://www.nettitude.com",
 			"country":"United Kingdom", 
 			"no-of-employees":"8", 
-			"references: [
-				{"Bedford County Hospital", "BHS retail", "Lloyds shipping"}
+			"references": [
+				"Bedford County Hospital", "BHS retail", "Lloyds shipping"
 			],
-			"certificates: [
-				{"Cyber Essentials", "CBEST", "STAR testing", "ISO 27001"}
+			"certificates": [
+				"Cyber Essentials", "CBEST", "STAR testing", "ISO 27001"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -30,8 +30,8 @@
 						{"sub-discipline-name":"Awareness & Education (Personnel)", "value":"1"},
 						{"sub-discipline-name":"Certifications", "value":"0"},
 						{"sub-discipline-name":"Incidents Response", "value":"1"}
-					]},}
-			],
+					]}
+			]
 		},
 		{
 			"company":"ATAATA", 
@@ -39,13 +39,13 @@
 			"www":"https://www.ataata.com/",
 			"country":"United States", 
 			"no-of-employees":"17", 
-			"references: [
-				{"Department of Defense", "Wendy’s", "Maryland National Hospital Board", "Medical Society of Delaware"}
+			"references": [
+				"Department of Defense", "Wendy’s", "Maryland National Hospital Board", "Medical Society of Delaware"
 			],
-			"certificates: [
-				{"ISO 27001", "NIST"}
+			"certificates": [
+				"ISO 27001", "NIST"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -73,13 +73,13 @@
 			"www":"https://www.kaspersky.com/",
 			"country":"Russia", 
 			"no-of-employees":"3900", 
-			"references: [
-				{"City of London Police", "Home Office", "Bedford Trust Hospital", "Brighton & West Sussex University Hospital"}
+			"references": [
+				"City of London Police", "Home Office", "Bedford Trust Hospital", "Brighton & West Sussex University Hospital"
 			],
-			"certificates: [
-				{"ISO 27001", "NIST", "Cyber Essentials"}
+			"certificates": [
+				"ISO 27001", "NIST", "Cyber Essentials"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -107,13 +107,13 @@
 			"www":"http://centoconsulting.co.uk/",
 			"country":"United Kingdom", 
 			"no-of-employees":"1", 
-			"references: [
-				{"Cirencester County Council", "Park Surgery of Cirencester"}
+			"references": [
+				"Cirencester County Council", "Park Surgery of Cirencester"
 			],
-			"certificates: [
-				{"Cyber Essentials"}
+			"certificates": [
+				"Cyber Essentials"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -141,13 +141,13 @@
 			"www":"https://apmg-international.com/",
 			"country":"United Kingdom", 
 			"no-of-employees":"108", 
-			"references: [
-				{"GCHQ", "Swindon Hospital Trust"}
+			"references": [
+				"GCHQ", "Swindon Hospital Trust"
 			],
-			"certificates: [
-				{"UKAS", "ISO 1704:2012", "Cyber Essentials", "NHS IGT"}
+			"certificates": [
+				"UKAS", "ISO 1704:2012", "Cyber Essentials", "NHS IGT"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -175,13 +175,13 @@
 			"www":"https://ninjio.com/",
 			"country":"United States", 
 			"no-of-employees":"45", 
-			"references: [
-				{"Ronald Reagan UCLA Medical Centre", "University of California"}
+			"references": [
+				"Ronald Reagan UCLA Medical Centre", "University of California"
 			],
-			"certificates: [
-				{"HIPAA", "NIST", "PCI DSS"}
+			"certificates": [
+				"HIPAA", "NIST", "PCI DSS"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -209,13 +209,13 @@
 			"www":"https://www.jawconsulting.co.uk/",
 			"country":"United Kingdom", 
 			"no-of-employees":"19", 
-			"references: [
-				{"Bank of England", "Leeds City Council", "Barclays"}
+			"references": [
+				"Bank of England", "Leeds City Council", "Barclays"
 			],
-			"certificates: [
-				{"ISO 27001", "PCI DSS", "NHS IGT"}
+			"certificates": [
+				"ISO 27001", "PCI DSS", "NHS IGT"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},
@@ -243,13 +243,13 @@
 			"www":"https://www.xyonecybersecurity.co.uk/",
 			"country":"United Kingdom", 
 			"no-of-employees":"8", 
-			"references: [
-				{"University of Leicester", "York Teaching Hospital NHS Trust", "East Lancashire Hospital Trust"}
+			"references": [
+				"University of Leicester", "York Teaching Hospital NHS Trust", "East Lancashire Hospital Trust"
 			],
-			"certificates: [
-				{"ISO 27001", "NHS IGT", "ISO 27301", "GCHQ Certified Training", "CAS"}
+			"certificates": [
+				"ISO 27001", "NHS IGT", "ISO 27301", "GCHQ Certified Training", "CAS"
 			],
-			"services: [
+			"services": [
 				{"service-name":"diagnostics", "value":"1", 
 					"sub-disciplines": [
 						{"sub-discipline-name":"Asset Mangement", "value":"1"},

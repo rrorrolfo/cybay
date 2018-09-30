@@ -1,5 +1,5 @@
 {
-	check-list: [
+	"check-list": [
 		{"name":"1.	Does all the staff understand their responsibilities under the National Data Guardian’s Data Security Standards, including their obligation to handle information responsibly and their personal accountability for deliberate or avoidable breaches?", "value":"1"},
 		{"name":"2.	Can you identify cyber-attacks against services?", "value":"0"},
 		{"name":"3.	Can you resist cyber-attacks against services?", "value":"0"},
