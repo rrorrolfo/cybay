@@ -92,9 +92,11 @@ fieldset {
 .question_wrapper {
     margin: 15px;
     display: flex;
-    margin-top: 30px;
-    /*padding-top: 20px;*/
-    /*padding-bottom: 20px;*/
+}
+
+.question_wrapper .ui-switcher {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .question_wrapper label {
