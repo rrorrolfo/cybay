@@ -9,51 +9,7 @@ function hideElement(array) {
 
 hideElement(description);
 
-
-const companies = [
-    {
-        name: "ninjio",
-        price: 1000,
-        country: "US"
-    },
-    {
-        name: "xyone",
-        price: 2000,
-        country: "US"
-    },
-    {
-        name: "kaspersky",
-        price: 4500,
-        country: "RU"
-    },
-    {
-        name: "jaw",
-        price: 2000,
-        country: "AT"
-    },
-    {
-        name: "apmg",
-        price: 3000,
-        country: "US"
-    },
-    {
-        name: "nettitude",
-        price: 3200,
-        country: "UK"
-    },
-    {
-        name: "ataata",
-        price: 1000,
-        country: "US"
-    },
-    {
-        name: "cento",
-        price: 1000,
-        country: "UK"
-    },
-];
-
-// Filter companies
+// Filter companies by price
 
 const price = document.querySelector("#price");
 const cards = document.querySelectorAll(".card");
