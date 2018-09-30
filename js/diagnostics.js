@@ -39,6 +39,21 @@ function x () {
 
 x();
 
+$(function(){
+    $.switcher();
+});
+
+$("button").hide();
+
+$("input").change(function () {
+    if ($(this)[0].checked) {
+        $(this).parent().find("button").show();
+    } else {
+        $(this).parent().find("button").hide();
+    }
+})
+
+
 // MODAL
 
 // DISPLAY MODAL
