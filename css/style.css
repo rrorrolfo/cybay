@@ -281,7 +281,7 @@ canvas {
 /**********  KARL FILTERS ****************/
 
 #country,
-#slider-container {
+.slider-container {
     margin: 20px;
     width: 80%;
 }
@@ -429,6 +429,10 @@ canvas {
     display: none;
 }
 
+.show {
+    display: block;
+}
+
 
 /*   MEDIA QUERIES   */
 
@@ -462,7 +466,6 @@ canvas {
         flex-basis: 30%;
     }
 
-    
 }
 
 @media screen and (max-width: 600px) {
