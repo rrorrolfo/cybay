@@ -262,23 +262,20 @@ canvas {
 
 #title_karl {
     grid-area: title;
-    border: 1px solid yellow;
     text-align: center;
 }
 
 #karl {
     grid-area: karl;
-    
+    padding-top: 50px;
 }
 
-#logos {
-    grid-area: logos;
-    border: 1px solid blue;
-}
+
 
 #settings {
     grid-area: settings;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
 }
 
 /**********  KARL FILTERS ****************/
@@ -368,7 +365,7 @@ canvas {
   }
 
   input:checked + .slider_switch {
-    background-color: var(--light-blue);
+    background-color: rgb(175, 79, 76);
   }
 
   input:focus + .slider_switch {
@@ -398,6 +395,40 @@ canvas {
     opacity: 1;
 }
 
+/*   LOGOS DISPLAY   */
+
+#logos {
+    grid-area: logos;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#logos_output {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 45%;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5px;
+    background-color: rgba(92, 92, 92, 0.63);
+    box-shadow: 10px 5px 5px var(--grey-color);
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
 
 /*   MEDIA QUERIES   */
 
@@ -425,6 +456,10 @@ canvas {
 
     #output-charts div {
         flex-basis: 45%;
+    }
+
+    .card {
+        flex-basis: 30%;
     }
 
     
