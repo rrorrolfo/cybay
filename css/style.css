@@ -214,6 +214,8 @@ background:#3594D2;
     content: " ";
     width: 60px;
     height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .red::before {
@@ -269,7 +271,7 @@ canvas {
   
 }
 
-#title {
+#title_karl {
     grid-area: title;
     border: 1px solid yellow;
     text-align: center;
