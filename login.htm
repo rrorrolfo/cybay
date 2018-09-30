@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cybay | Cyber Security Marketplace</title>
+    <link rel="stylesheet" href="css/style-landing.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+	<script>
+		function field_focus(field, email)
+		  {
+			if(field.value == email)
+			{
+			  field.value = '';
+			}
+		  }
+
+		  function field_blur(field, email)
+		  {
+			if(field.value == '')
+			{
+			  field.value = email;
+			}
+		  }
+
+		//Fade in dashboard box
+		$(document).ready(function(){
+			$('.box').hide().fadeIn(1000);
+			});
+
+		//Stop click event
+		$('a').click(function(event){
+			event.preventDefault(); 
+			});
+	</script>
+  </head>
+  <body>
+	<table border="0" width="100%">
+		<tr>
+			<td width="50%" align="center"><a href="index.html"><img src="images/cy-bay-big2.png" width="400"></a><br/></td>
+		</tr>
+		<tr>
+			<td style= "text-align:center; align:left;">
+				<form method="post" action="index.html">
+				<div class="box">
+				<h1>Partners login</h1>
+
+				<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+				  
+				<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+				  
+				<a href="index.html"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+				<a href="index.html"><div class="btn" id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+				  
+				</div> <!-- End Box -->
+				  
+				</form>
+
+				<p style="font-size:12px; color:#000000">Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>	
+			</td>
+		</tr>
+	</table>
+ 	<br/>
+    </body>
+
+</html>
