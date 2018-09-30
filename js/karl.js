@@ -91,11 +91,16 @@ const company_size = document.querySelector("#size");
 company_size.addEventListener("change", () => {
     let size_value = company_size.value;
 
-    console.log(size_value);
 
     for ( let i = 0; i < companies.length; i += 1) {
         if (parseInt(companies[i]["size"]) == parseInt(size_value)) {
             console.log(companies[i]["name"]);
+            console.log(cards[i])
+            cards[i].className = " ";
+            cards[i].className += "card show";
+        } else {
+            cards[i].className = " ";
+            cards[i].className += "card show";
         }
     }
 });
